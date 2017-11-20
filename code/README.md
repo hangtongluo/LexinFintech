@@ -20,16 +20,16 @@ sub_ronghe_auc.py：auc融合文件生成
 sub_ronghe_re.py：回归融合文件生成  
 
 文件夹：  
-data：训练和测试原始数据
-	---- lexin_test 存放测试数据
-	---- lexin_train 存放训练数据
-features：保存提取的特征
-model：存放模型和特征重要性排序文件
-pro_data：保存中间预处理数据
-submission：保存提交结果
-	---- xgb 存放xgb模型结果
-	---- lgb 存放lgb模型结果
-	---- combin 存放模型融合结果
+data：训练和测试原始数据  
+	---- lexin_test 存放测试数据  
+	---- lexin_train 存放训练数据  
+features：保存提取的特征  
+model：存放模型和特征重要性排序文件  
+pro_data：保存中间预处理数据  
+submission：保存提交结果  
+	---- xgb 存放xgb模型结果  
+	---- lgb 存放lgb模型结果  
+	---- combin 存放模型融合结果  
 
-v_3_4_最差.R：模型融合使用
+v_3_4_最差.R：模型融合使用  
 v_5_10_0.924.R：模型融合使用
